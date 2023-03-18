@@ -1,10 +1,10 @@
 export const config = {
   env: "prod",
   LOCAL_API_URL: "localhost:3000",
-  API_URL: "",
-  COLLECTION_NAME: "Fireball Genisis Collection",
-  COLLECTION_TITLE: "Fireball Genisis",
-  COLLECTION_DESCRIPTION: "Fireball Genisis Collection",
+  API_URL: "https://rarity-score-flame.vercel.app/",
+  COLLECTION_NAME: "Unchained Wolfs",
+  COLLECTION_TITLE: "Paths of Salvation",
+  COLLECTION_DESCRIPTION: "Unchained Wolfs",
   COLLECTION_IMG_LINK: "",
   CONTRACT: {},
   // if you're not sure, set CONTRACT: {}, will remove opensea link
