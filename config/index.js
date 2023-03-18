@@ -1,7 +1,7 @@
 export const config = {
   env: "prod",
   LOCAL_API_URL: "localhost:3000",
-  API_URL: "https://rarity-score-flame.vercel.app/",
+  API_URL: "rarity-score-flame.vercel.app",
   COLLECTION_NAME: "Unchained Wolfs",
   COLLECTION_TITLE: "Paths of Salvation",
   COLLECTION_DESCRIPTION: "Unchained Wolfs",
