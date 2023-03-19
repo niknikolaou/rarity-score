@@ -3,9 +3,9 @@ import json
 with open('collection.json', 'r') as f:
     data = json.load(f)
 
-for i, d in enumerate(data):
+for i, d in enumerate(data,1):
     d = {'id': i, **d}  # add 'id' field to the beginning of the dictionary
-    data[i] = d  # replace original dictionary with new one
+    data[i-1] = d  # replace original dictionary with new one
     print(i)
 
 for i, d in enumerate(data):
