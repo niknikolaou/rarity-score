@@ -1,6 +1,5 @@
 import React from "react";
 import { formatIpfsUrl } from "../util";
-import { config } from "../config";
 
 export const NFT = (nft) => {
   return (
